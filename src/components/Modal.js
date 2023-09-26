@@ -1,5 +1,5 @@
 import { getErrorMessageByStatusCode } from '../lib/errorMessage';
-import { getMovieDetails } from '../api/getTMDBApis';
+import { getMovieDetails } from '../api/TMDB_API';
 
 export const closeModal = () => {
 	const modal = document.querySelector('div.modal');
